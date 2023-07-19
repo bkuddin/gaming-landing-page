@@ -77,7 +77,7 @@ nav ul{
 }
 
 nav ul li{
-    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 nav ul li a{
@@ -205,7 +205,7 @@ border: 0;
     }
 
     nav ul li{
-        margin-right: 0px;
+        margin-left: 1rem;
         margin-bottom: 1rem;
     }
 
@@ -272,8 +272,11 @@ border: 0;
 }
 
 @media screen and (min-width: 576px ) and (max-width: 1040px) {
+    nav {
+        margin: 3% 60px;
+    }
     nav ul li{
-        margin-right: 1rem;
+        margin-left: 1rem;
         
     }
 
@@ -293,5 +296,54 @@ border: 0;
             width: 30%;
         }
 
+
+        .banner-section{
+        
+            margin: 3% 20px;          
+    
+        }
+    
+        .banner-section-text{
+            width: 100%;  
+            margin-top: 3rem;    
+            padding-left: 40px;
+            padding-top: 35px;     
+            background-image: url(images/creativebg14.png);
+            background-size: contain;
+            
+           
+        }
+    
+        h3{
+            font-size: 2rem;
+        }
+    
+        .banner-section-text-title-two{      
+            font-size: 3rem;
+        }
+    
+        .banner-section-text p {
+            font-size: 0.8rem;
+        }
+    
+        .banner-section-img{
+            padding-right: 35px;
+        }
+    
+        .banner-section-img{
+            width: 100%;
+        }
+    
+        .buttons{
+            margin-top: 2rem ;
+            margin-bottom: 6rem; 
+            
+        }
+    
+        .btn-primary {             
+            padding: 10px 20px;
+            font-size: 0.9rem;            
+           
+        }
     
 }
