@@ -125,7 +125,7 @@ border: 0;
     color: red;
 }
 
-/* Banner Styles */
+/* Banner Styles Start  */
 
 .banner-section{
     
@@ -194,6 +194,7 @@ border: 0;
     nav{
        flex-direction: column;
        justify-content: center;
+
     
     }
     
@@ -215,6 +216,56 @@ border: 0;
         text-align: center;
         margin-bottom: 1rem;
         
+    }
+
+    .banner-section{
+        flex-direction: column-reverse;
+        margin: 3% 20px;
+        
+
+    }
+
+    .banner-section-text{
+        width: 100%;  
+        margin-top: 3rem;    
+        padding-left: 25px;
+        padding-top: 35px;     
+        background-image: url(images/creativebg14.png);
+        background-size: contain;
+        
+       
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .banner-section-text-title-two{      
+        font-size: 3rem;
+    }
+
+    .banner-section-text p {
+        font-size: 0.8rem;
+    }
+
+    .banner-section-img{
+        padding-right: 0px;
+    }
+
+    .banner-section-img{
+        width: 100%;
+    }
+
+    .buttons{
+        margin-top: 2rem ;
+        margin-bottom: 6rem; 
+        
+    }
+
+    .btn-primary {             
+        padding: 10px 20px;
+        font-size: 0.9rem;            
+       
     }
 
     
