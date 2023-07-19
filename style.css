@@ -329,8 +329,34 @@ border: 0;
        
     }
 
+    .gamer-section{
+        flex-direction: column;
+        padding-top: 2rem; 
+        margin: 3% 50px;        
+    }
+
+   
+
+    .gamer-section-text{
+        text-align: center;
+    }
+
+    .gamer-section-img img{
+        width: 100%;
+    }
+
+    .ellipsis-box {
+        margin-left: 30%;
+    }
+
     
 }
+
+
+/*=============== Responsive for Tablet Devices=============== */
+/*=============== Responsive for Tablet Devices=============== */
+/*=============== Responsive for Tablet Devices=============== */
+/*=============== Responsive for Tablet Devices=============== */
 
 @media screen and (min-width: 576px ) and (max-width: 1040px) {
     nav {
@@ -405,6 +431,20 @@ border: 0;
             padding: 10px 20px;
             font-size: 0.9rem;            
            
+        }
+
+        .gamer-section{
+            
+            padding-top: 2rem; 
+            margin: 3% 50px;        
+        }
+
+        .gamer-section-text{
+            width: 100%;
+        }
+    
+        .gamer-section-img img{
+            width: 100%;
         }
     
 }
