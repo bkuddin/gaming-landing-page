@@ -15,6 +15,7 @@ body{
     color: #534C64;
     max-width: 1920px;
     margin: 0 auto;
+    overflow-x: hidden;
     
 }
 
@@ -39,6 +40,10 @@ nav{
 } */
 
 .gamer-section{
+    margin: 3% 150px; 
+}
+
+.online-games-section-container{
     margin: 3% 150px; 
 }
 
@@ -199,7 +204,7 @@ border: 0;
 }
 .gamer-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
     align-items: center;
     padding-top: 2rem;
     
@@ -238,6 +243,51 @@ border: 0;
     font-weight: 700;
     
 }
+
+/*========== Online Games Section Styles======== */
+
+.online-games-section-text-description{
+    margin: 1.5rem 0 2rem 0;
+}
+
+.online-games-section-text{
+    text-align: center;
+}
+
+.funny-videos-color{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+
+}
+
+.online-games-section-img{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;   
+    
+}
+
+.online-games-section-img-card{
+    width: 342px;
+}
+
+.online-games-section-img img{
+    width: 100%;
+}
+
+
+
+.online-games-section-img{
+    text-align: left;
+}
+
+
+
+
+
 
 
 
@@ -287,7 +337,7 @@ border: 0;
     }
 
     .banner-section-text{
-        width: 100%;  
+        width: 95%;  
         margin-top: 3rem;    
         padding-left: 25px;
         padding-top: 35px;     
@@ -329,6 +379,10 @@ border: 0;
        
     }
 
+    .gamer-section-container{
+        background: none;
+    }
+    
     .gamer-section{
         flex-direction: column;
         padding-top: 2rem; 
@@ -347,6 +401,26 @@ border: 0;
 
     .ellipsis-box {
         margin-left: 30%;
+    }
+
+    .online-games-section-container {
+        margin: 20% 40px;
+    }
+
+    .online-games-section-text-title{
+        font-size: 2rem;
+
+    }
+
+    .online-games-section-img{
+        flex-direction: column;  
+        align-items: center; 
+        text-align: center;
+        
+    }
+
+    .online-games-section-img-card {
+        width: 282px;
     }
 
     
@@ -448,3 +522,5 @@ border: 0;
         }
     
 }
+
+
