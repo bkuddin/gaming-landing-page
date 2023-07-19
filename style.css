@@ -520,6 +520,10 @@ border: 0;
         .gamer-section-img img{
             width: 100%;
         }
+
+        .online-games-section-container {
+            margin: 10% 42px;
+        }
     
 }
 
