@@ -3,13 +3,16 @@
 
 
 /* Common Styles */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
 
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif; 
     font-size: 1.125rem;
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -29,11 +32,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 3% 10%;
 
 }
 
 nav ul{
-    display: flex;
+    display: flex;    
     align-items: center;
     list-style: none;
 
@@ -57,7 +61,7 @@ nav ul li i{
 
 
 
-.nav-logo img{
+.nav-logo{
     width: 30%;
     
 }
@@ -74,8 +78,8 @@ nav ul li i{
 .nav-button{
 border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
-width: 262px;
-padding: 16px;
+width: 16.375rem;
+padding: 1rem;
 border: 0;
     
 }
@@ -89,3 +93,37 @@ border: 0;
 }
 
 
+/*=========================== Responsive Design======================== */
+/*=========================== Responsive Design======================== */
+/*=========================== Responsive Design======================== */
+/*=========================== Responsive Design======================== */
+
+@media screen and (max-width: 576px) {
+    nav{
+       flex-direction: column;
+       justify-content: center;
+    
+    }
+    
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    nav ul li{
+        margin-right: 0px;
+        margin-bottom: 1rem;
+    }
+
+    .nav-logo{
+        width: 0%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+        
+    }
+
+    
+}
