@@ -44,7 +44,7 @@ nav ul{
 }
 
 nav ul li{
-    margin-right: 32px;
+    margin-right: 2rem;
 }
 
 nav ul li a{
@@ -124,6 +124,31 @@ border: 0;
         margin-bottom: 1rem;
         
     }
+
+    
+}
+
+@media screen and (min-width: 576px ) and (max-width: 992px) {
+    nav ul li{
+        margin-right: 1rem;
+        
+    }
+
+    .nav-button{       
+        width: 13.375rem;
+        padding: 1rem;
+                  
+        }
+     
+
+        .nav-logo p {
+            font-size: 2rem;         
+        
+        }
+
+        .nav-logo img{
+            width: 30%;
+        }
 
     
 }
