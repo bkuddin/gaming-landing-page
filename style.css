@@ -12,6 +12,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif; 
     font-size: 1.125rem;
+    color: #534C64;
     max-width: 1920px;
     margin: 0 auto;
     
@@ -19,23 +20,43 @@ body{
 
 /* CSS Var */
 :root{
-    --PrimaryColor: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --linear: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     --SecondaryColor: #0B0223;
 }
 
-h2{
+h3{
     font-size: 3rem;
+    color: #0B0223;
 }
 
 /* Section Margin Start */
 nav{ 
-    margin: 3% 10%;
+    margin: 3% 150px;
 }
 
-.banner-section{
-    margin: 3% 10%;
-}
+/* .banner-section{
+    margin: 3% 150px;
+} */
+
 /* Section Margin End */
+
+.btn-primary{
+    border-radius: 48px;
+    background: #f948b2;
+    padding: 21px 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    
+}
+
+.btn-primary a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Common Styles End */
+
 
 
 /*=========== Nav Styles========== */
@@ -44,7 +65,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3% 10%;
+    
 
 }
 
@@ -103,6 +124,65 @@ border: 0;
 .yt-color{
     color: red;
 }
+
+/* Banner Styles */
+
+.banner-section{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.banner-section-text{
+    width: 60%;
+    padding-left: 150px;
+    padding-top: 50px;    
+    background-image: url(images/creativebg14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-section-img{
+    padding-right: 150px;
+}
+
+.banner-section-text i{
+    color: #F948B2;
+}
+
+.banner-section-text p{
+
+    font-size: 1.5rem;   
+}
+
+.banner-section-text-title-two{
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5.9375rem;
+}
+
+.banner-section-img{
+    width: 40%;
+}
+
+.banner-section-img img{
+    width: 100%;
+    
+}
+
+.buttons{
+    margin-top: 3.5rem;    
+}
+
+.btn-go{
+    background-color: #4EC5F7;
+}
+
+
 
 
 /*=========================== Responsive Design======================== */
