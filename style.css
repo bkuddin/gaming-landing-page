@@ -38,6 +38,10 @@ nav{
     margin: 3% 150px;
 } */
 
+.gamer-section{
+    margin: 3% 150px; 
+}
+
 /* Section Margin End */
 
 .btn-primary{
@@ -130,12 +134,13 @@ border: 0;
     color: red;
 }
 
-/* Banner Styles Start  */
+/* ===================Banner Styles Start===============  */
 
 .banner-section{
     
     display: flex;
     justify-content: space-between;
+   
     
 }
 
@@ -186,6 +191,57 @@ border: 0;
 .btn-go{
     background-color: #4EC5F7;
 }
+
+/* ===================gamer-section styles============= */
+.gamer-section-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: -53px;
+}
+.gamer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    
+}
+
+.gamer-section-text{
+    text-align: end;
+}
+
+
+.gamer-section-text-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    margin-bottom: 2rem;
+   
+}
+
+.gamer-elips-quote{
+    margin-top: 2rem;
+}
+
+.ellipsis-box{
+    width: 128px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: end;
+    margin-left: 68%;
+    
+  
+}
+.quote{
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+
+
+
 
 
 
