@@ -48,11 +48,11 @@ nav{
 }
 
 .play-instantly-section-container{
-    margin: 3% 150px;  
+    margin: 0.5% 150px;  
 }
 
 .play-instantly-section-container-2{
-    margin: 3% 150px;
+    margin: 0.5% 150px;
 }
 
 /* Section Margin End */
@@ -522,7 +522,7 @@ border: 0;
     }
 
     .play-instantly-section-container {
-        margin: 3% 60px;
+        margin: 0.5% 60px;
     }
 
     .play-instantly-section-container {
@@ -559,7 +559,7 @@ border: 0;
     /* Play Instantly 2 */
 
     .play-instantly-section-container-2 {
-        margin: 1% 60px;
+        margin: 0.5% 60px;
     }
 
     .play-instantly-section-container-2 {
