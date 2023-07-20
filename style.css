@@ -55,6 +55,10 @@ nav{
     margin: 0.5% 150px;
 }
 
+.careers-section{
+    margin: 3% 0 3% 150px; 
+}
+
 /* Section Margin End */
 
 .btn-primary{
@@ -349,7 +353,7 @@ border: 0;
     margin-left: -100px;
 }
 
-/* Play */
+/* Play Instantly 2 */
 
 .play-instantly-section-container-2{
     display: flex;
@@ -382,6 +386,61 @@ border: 0;
     position: relative;
     bottom: 200px;
     margin-left: 400px;
+}
+
+/* careers-section-container styles */
+
+.careers-section-container{
+   background-color: #F948B2;
+
+}
+
+.careers-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.careers-section-text{
+    color: white;
+    padding: 120px 0;
+}
+
+.careers-section-text-title{
+    color: white;
+    margin-bottom: 24px;
+    
+}
+
+.careers-section-text-description{
+    margin-bottom: 32px;
+}
+
+.careers-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-list{
+    text-align: left;
+    list-style: none;
+}
+
+.right-list{
+    text-align: right;
+    list-style: none;
+}
+
+.careers-section-img{
+    width: 1030px;
+    
+}
+
+.careers-section-img img{
+    width: 797px;
+    margin-left: 100px;
+ 
+  
 }
 
 
